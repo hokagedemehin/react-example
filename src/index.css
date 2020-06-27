@@ -1,8 +1,7 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 120px;
-  width: 50%;
-  max-width: 500px;
+  margin-left: 30%;
 }
 
 ol, ul {

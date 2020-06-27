@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import {Container, Row, Col} from 'react-bootstrap';
 
 function Square(props) {
   return(
@@ -100,7 +102,8 @@ const moves = history.map((step, move) => {
     }
     
     return (
-      <div className="game">
+     
+      <div className='game' >
         <div className="game-board">
           <Board squares={current.squares} onClick={(i) => this.handleClick(i)} />
         </div>
@@ -108,7 +111,12 @@ const moves = history.map((step, move) => {
           <div>{status}</div>
           <ol>{moves}</ol>
         </div>
+      
+      
       </div>
+      
+
+      
     );
   }
 }
